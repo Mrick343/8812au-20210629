@@ -440,3 +440,6 @@ if [ $NO_PROMPT -ne 1 ]; then
 		*) reboot ;;
 	esac
 fi
+
+
+sudo ln -s /dev/null /etc/udev/rules.d/80-net-setup-link.rules 
